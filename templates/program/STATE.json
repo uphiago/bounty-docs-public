@@ -1,0 +1,32 @@
+{
+  "program": {
+    "platform": "<platform>",
+    "handle": "<program-handle>"
+  },
+  "status": "not-started",
+  "updated_at": null,
+  "runtime": {
+    "verified_at": null,
+    "status": "unknown"
+  },
+  "cadence": {
+    "tick": null,
+    "full_recon": null
+  },
+  "scope": {
+    "source": null,
+    "captured_at": null
+  },
+  "queue": {
+    "pending": 0,
+    "done": 0,
+    "skipped": 0
+  },
+  "candidates": {
+    "documented": 0,
+    "reported": 0,
+    "highest_severity": null
+  },
+  "open_questions": [],
+  "next_actions": []
+}

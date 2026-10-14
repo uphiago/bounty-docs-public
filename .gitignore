@@ -1,0 +1,34 @@
+# NEVER version credentials or sensitive material
+*credentials*
+*.env
+.env*
+.git-token
+*token*.txt
+*cookie*
+*.pem
+*.key
+id_rsa*
+auth.json
+*lockout*
+
+# identity.env is NOT a secret: it only names the research header a program demands.
+# That is per-program policy and MUST be versioned, otherwise tooling cannot label its traffic.
+!identity.env
+!*/identity.env
+!programs/*/identity.env
+
+# Who the researcher is, is NOT policy: the handle lives at runtime, outside version control.
+identity.local
+.h1-identity
+
+# noise
+__pycache__/
+*.pyc
+node_modules/
+*.log
+*.tmp
+.DS_Store
+**/tmp/
+**/state/*.bak
+**/state/*.prev-*
+**/state/*.bak-*
